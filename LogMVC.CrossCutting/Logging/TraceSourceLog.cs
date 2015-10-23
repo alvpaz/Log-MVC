@@ -215,8 +215,9 @@ namespace LogMVC.CrossCutting.Logging
                     // The ToString() create a string representation of the current exception
 
                     TraceInternal(TraceEventType.Error,
-                                  string.Format(CultureInfo.InvariantCulture, "{0} Exception:{1}", messageToTrace,
-                                                exceptionData));
+                                  string.Format(CultureInfo.InvariantCulture, "{0}\nMensagem de Exceção:{1}", 
+                                  messageToTrace,
+                                  exceptionData));
                 }
                 catch (Exception ex)
                 {

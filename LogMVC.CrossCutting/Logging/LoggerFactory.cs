@@ -35,7 +35,7 @@ namespace LogMVC.CrossCutting.Logging
         }
 
         /// <summary>
-        ///   Createt a new <paramref name="Cabesp.AuditorExterno.Infra.CrossCutting.Common.Logging.ILog" />
+        ///   Createt a new <paramref name="" />
         /// </summary>
         /// <returns> Created ILog </returns>
         public static ILogger CreateLog()
